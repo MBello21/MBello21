@@ -36,9 +36,9 @@ Mi proyecto más ambicioso hasta la fecha: Una plataforma integral para la gesti
 ### 🛠️ My Tech Stack
 | Languages & Core | Frameworks & Libraries | Databases & Tools |
 | :--- | :--- | :--- |
-| JavaScript (ES6+), Python | React, Flask, Bootstrap | PostgreSQL, SQLAlchemy |
+| JavaScript (ES6+), Python | React, Flask, FastAPI Bootstrap | PostgreSQL, SQLAlchemy |
 | HTML5, CSS3 (BEM) | Context API, JWT | Git, GitHub, Cloudinary |
-| TypeScript (In progress) | Next.js (In progress) | Mailtrap, Postman |
+| TypeScript | Next.js (In progress) | Mailtrap, Postman |
 
 ---
 
