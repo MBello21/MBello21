@@ -31,7 +31,7 @@ Vengo del mundo de la **Ingeniería Química**, donde aprendí que los sistemas 
 
 ### 🏗️ Featured Projects
 
-#### 💰 ConstruCloudAI
+#### 💰 ConstruCloudAI `🔧 En desarrollo`
 Plataforma SaaS de generación de presupuestos de construcción asistida por IA, desarrollada como proyecto principal en **Labs by 4Geeks Academy** (julio–agosto 2026).
 
 - **Backend:** FastAPI + PostgreSQL + pgvector + Alembic. RAG con embeddings HuggingFace y búsqueda vectorial de presupuestos similares.
