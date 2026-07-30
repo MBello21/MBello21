@@ -1,4 +1,5 @@
-# Hi there, I'm Migue! 👋 
+# Hi there, I'm Migue! 👋
+
 ### 🚀 Chemical Engineer | Full Stack Software Developer
 
 <p align="left">
@@ -9,6 +10,7 @@
   <img src="https://img.shields.io/badge/-Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
   <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" />
   <img src="https://img.shields.io/badge/-Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" />
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
@@ -20,15 +22,16 @@
 Vengo del mundo de la **Ingeniería Química**, donde aprendí que los sistemas complejos solo funcionan si sus bases son sólidas y sus flujos están optimizados. Hoy aplico esa misma mentalidad analítica al desarrollo de software, construyendo aplicaciones web robustas, escalables y seguras — con proyectos reales en producción desde el primer año.
 
 - 🔭 **Current Focus:** Desarrollando **ConstruCloudAI**, una plataforma SaaS de presupuestos de construcción con IA (RAG + pgvector + Groq).
+- 📡 **En desarrollo:** Sistema GPS propietario con Raspberry Pi + SIM7000E para rastreo de flota de 14 vehículos de carreteras del Estado.
 - 🏗️ **En producción:** Sistema de alertas meteorológicas AEMET con bot de Telegram para gestión de carreteras del Estado.
-- 🔐 **Core Expertise:** Arquitecturas RESTful, FastAPI, autenticación JWT y gestión de datos relacionales.
 - ⚙️ **Infraestructura:** Homelab Proxmox con Docker, LXC, Nginx Proxy Manager y Cloudflare Tunnels.
 - ⚡ **Engineering Mindset:** No solo escribo código; resuelvo problemas de negocio mediante lógica estructurada.
 
 ---
 
-### 🏗️ Featured Project: ConstruCloudAI
+### 🏗️ Featured Projects
 
+#### 💰 ConstruCloudAI
 Plataforma SaaS de generación de presupuestos de construcción asistida por IA, desarrollada como proyecto principal en **Labs by 4Geeks Academy** (julio–agosto 2026).
 
 - **Backend:** FastAPI + PostgreSQL + pgvector + Alembic. RAG con embeddings HuggingFace y búsqueda vectorial de presupuestos similares.
@@ -36,10 +39,15 @@ Plataforma SaaS de generación de presupuestos de construcción asistida por IA,
 - **Frontend:** React 19 + TypeScript + React Router v7 + Tailwind CSS.
 - **Filosofía:** "La IA asiste, no decide."
 
----
+#### 📡 GPS Tracker — Flota COEX
+Sistema de rastreo GPS propietario para 14 vehículos de conservación de carreteras del Estado. Reemplaza una solución de terceros con licencia, reduciendo costes de la flota.
 
-### 🚨 En Producción: Sistema de Alertas AEMET — COEX CA-03
+- **Dispositivo:** Raspberry Pi 3 A+ con HAT Waveshare SIM7000E (NB-IoT/GPRS/GNSS). Alimentación desde el vehículo con aislamiento eléctrico. SD en read-only con overlay filesystem.
+- **Backend:** FastAPI + PostgreSQL/PostGIS + WebSockets para tiempo real.
+- **Frontend:** React + TypeScript + Leaflet. Mapa en tiempo real con posiciones e histórico de rutas.
+- **Infra:** LXC en Proxmox, Nginx como reverse proxy, acceso externo vía Cloudflare Tunnel.
 
+#### 🚨 Sistema de Alertas AEMET — COEX CA-03
 Sistema meteorológico real desplegado para la Demarcación de Carreteras del Estado en Cádiz.
 
 - Bot de Telegram con alertas CAT.I–V integradas con la API de AEMET.
@@ -50,11 +58,12 @@ Sistema meteorológico real desplegado para la Demarcación de Carreteras del Es
 
 ### 🛠️ My Tech Stack
 
-| Languages & Core | Frameworks & Libraries | Databases & Tools |
-| :--- | :--- | :--- |
-| JavaScript (ES6+), Python | React 19, Flask, FastAPI | PostgreSQL, pgvector, SQLAlchemy |
-| HTML5, CSS3, Sass | React Router v7, Tailwind CSS | Docker, Proxmox, LXC |
-| TypeScript | Alembic, Pydantic | Git, GitHub, Cloudflare, Nginx |
+| Languages & Core | Frameworks & Libraries | Databases & Infra | IoT & Hardware |
+| :--- | :--- | :--- | :--- |
+| JavaScript (ES6+) | React 19, Tailwind CSS | PostgreSQL, PostGIS | Raspberry Pi |
+| TypeScript | Flask, FastAPI | pgvector, SQLAlchemy | SIM7000E (GPRS/GNSS) |
+| Python | React Router v7, Leaflet | Docker, Proxmox, LXC | pyserial, comandos AT |
+| HTML5, CSS3, Sass | Alembic, Pydantic | Git, Cloudflare, Nginx | Overlay FS, systemd |
 
 ---
 
