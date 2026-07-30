@@ -42,7 +42,7 @@ Plataforma SaaS de generación de presupuestos de construcción asistida por IA,
 #### 📡 GPS Tracker — Flota COEX `🔧 En desarrollo`
 Sistema de rastreo GPS propietario para 14 vehículos de conservación de carreteras del Estado. Reemplaza una solución de terceros con licencia, reduciendo costes de la flota.
 
-- **Dispositivo:** Raspberry Pi 3 A+ con HAT Waveshare SIM7000E (NB-IoT/GPRS/GNSS). Alimentación desde el vehículo con aislamiento eléctrico. SD en read-only con overlay filesystem.
+- **Dispositivo:** Raspberry Pi 3 B+ con HAT Waveshare SIM7000E (NB-IoT/GPRS/GNSS). Alimentación desde el vehículo con aislamiento eléctrico. SD en read-only con overlay filesystem.
 - **Backend:** FastAPI + PostgreSQL/PostGIS + WebSockets para tiempo real.
 - **Frontend:** React + TypeScript + Leaflet. Mapa en tiempo real con posiciones e histórico de rutas.
 - **Infra:** LXC en Proxmox, Nginx como reverse proxy, acceso externo vía Cloudflare Tunnel.
