@@ -39,15 +39,24 @@ Plataforma SaaS de generación de presupuestos de construcción asistida por IA,
 - **Frontend:** React 19 + TypeScript + React Router v7 + Tailwind CSS.
 - **Filosofía:** "La IA asiste, no decide."
 
-#### 📡 GPS Tracker — Flota COEX
+#### 📡 GPS Tracker — Flota COEX `🔧 En desarrollo`
 Sistema de rastreo GPS propietario para 14 vehículos de conservación de carreteras del Estado. Reemplaza una solución de terceros con licencia, reduciendo costes de la flota.
 
-- **Dispositivo:** Raspberry Pi 3 B+ con HAT Waveshare SIM7000E (NB-IoT/GPRS/GNSS). Alimentación desde el vehículo con aislamiento eléctrico. SD en read-only con overlay filesystem.
+- **Dispositivo:** Raspberry Pi 3 A+ con HAT Waveshare SIM7000E (NB-IoT/GPRS/GNSS). Alimentación desde el vehículo con aislamiento eléctrico. SD en read-only con overlay filesystem.
 - **Backend:** FastAPI + PostgreSQL/PostGIS + WebSockets para tiempo real.
 - **Frontend:** React + TypeScript + Leaflet. Mapa en tiempo real con posiciones e histórico de rutas.
 - **Infra:** LXC en Proxmox, Nginx como reverse proxy, acceso externo vía Cloudflare Tunnel.
 
-#### 🚨 Sistema de Alertas AEMET — COEX CA-03
+#### 🏥 Sistema de Gestión de Urgencias con IA `📚 Proyecto final Bootcamp`
+Aplicación de gestión hospitalaria de urgencias desarrollada en equipo. Asistente IA para apoyo al recepcionista en el triage de pacientes.
+
+- **3 dashboards** diferenciados por rol: enfermero, médico y técnico de pruebas.
+- **IA integrada** para asistencia en la recepción y clasificación de pacientes.
+- **Tablas dinámicas** con drag & drop para gestión de pacientes en tiempo real.
+- **Gestión documental:** Subida de imágenes y PDFs vía Cloudinary. Notificaciones por correo con Mailtrap.
+- **Stack:** React + TypeScript | Flask + PostgreSQL | Panel de administración con alta de usuarios.
+
+#### 🚨 Sistema de Alertas AEMET — COEX CA-03 `✅ En producción`
 Sistema meteorológico real desplegado para la Demarcación de Carreteras del Estado en Cádiz.
 
 - Bot de Telegram con alertas CAT.I–V integradas con la API de AEMET.
